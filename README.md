@@ -74,15 +74,15 @@ Layout
 
 // 2. MainActivity.java
 
-package com.bso.android.geometryapp;
+    package com.bso.android.geometryapp;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+    import android.content.Intent;
+    import android.support.v7.app.AppCompatActivity;
+    import android.os.Bundle;
+    import android.view.View;
+    import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+    public class MainActivity extends AppCompatActivity {
     Button btnpersegi, btnpersegipanjang, btnlingkaran, btnsegitiga;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -208,19 +208,19 @@ public class MainActivity extends AppCompatActivity {
 
 // 4. PersegiActivty.java
 
-package com.bso.android.geometryapp;
+    package com.bso.android.geometryapp;
 
-import android.icu.text.NumberFormat;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.RadioButton;
-import android.widget.TextView;
-import android.widget.Toast;
+    import android.icu.text.NumberFormat;
+    import android.support.v7.app.AppCompatActivity;
+    import android.os.Bundle;
+    import android.view.View;
+    import android.widget.Button;
+    import android.widget.EditText;
+    import android.widget.RadioButton;
+    import android.widget.TextView;
+    import android.widget.Toast;
 
-public class PersegiActivity extends AppCompatActivity {
+    public class PersegiActivity extends AppCompatActivity {
 
 
     RadioButton rbkeliling, rbluas;
@@ -309,8 +309,8 @@ public class PersegiActivity extends AppCompatActivity {
 
 // 5. activty_lingkaran.xml
 
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout 
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -396,19 +396,19 @@ public class PersegiActivity extends AppCompatActivity {
 
 // 6. LingkaranActivity.java
 
-package com.bso.android.geometryapp;
+    package com.bso.android.geometryapp;
 
-import android.icu.text.NumberFormat;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.RadioButton;
-import android.widget.TextView;
-import android.widget.Toast;
+    import android.icu.text.NumberFormat;
+    import android.support.v7.app.AppCompatActivity;
+    import android.os.Bundle;
+    import android.view.View;
+    import android.widget.Button;
+    import android.widget.EditText;
+    import android.widget.RadioButton;
+    import android.widget.TextView;
+    import android.widget.Toast;
 
-public class LingkaranActivity extends AppCompatActivity {
+    public class LingkaranActivity extends AppCompatActivity {
 
     RadioButton rbkeliling, rbluas;
     Button btnhasil;
