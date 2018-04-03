@@ -499,3 +499,18 @@ Layout
     }
 }
 
+
+// 7. values string.xml
+
+    <resources>
+    <string name="app_name">Bangun Datar</string>
+    <string name="persegi">Persegi</string>
+    <string name="persegi_panjang">Persegi Panjang</string>
+    <string name="lingkaran">Lingkaran</string>
+    <string name="segitiga">Segitiga Siku-Siku</string>
+    <string name="keliling">Keliling</string>
+    <string name="luas">Luas</string>
+    <string name="r">r = jari-jari</string>
+    <string name="phi">π = 3.14</string>
+    <string name="cmpersegi"></string>
+    </resources>
